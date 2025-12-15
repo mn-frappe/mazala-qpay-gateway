@@ -1,0 +1,345 @@
+# Copyright (C) 2024 WooQPay
+# This file is distributed under the same license as the WooQPay plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooQPay 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/wooqpay/wooqpay/issues\n"
+"POT-Creation-Date: 2024-12-12 00:00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Accept payments via qPay (Mongolian payment gateway) with eBarimt integration."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Enable qPay gateway"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Title"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Description"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Mode"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Choose sandbox or production. Sandbox is the default on activation."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Invoice Code"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Invoice code provided by qPay (required for live)."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Sandbox client id"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Test client id (pre-filled): TEST_MERCHANT"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Sandbox client secret"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Test client secret (pre-filled): 123456"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Live client id"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Live client id (enter when ready)"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Live client secret"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Use environment variables"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "If enabled, read credentials from environment variables instead of storing them in options."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Env var for client id"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Environment variable name to read client id from (e.g. WOOQPAY_CLIENT_ID)."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Env var for client secret"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Environment variable name to read client secret from (e.g. WOOQPAY_CLIENT_SECRET)."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Webhook Secret"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Secret for validating webhook signatures (HMAC-SHA256)."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Webhook Signature Header"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "HTTP header name containing the webhook signature."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Webhook Signature Algorithm"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Enable eBarimt posting"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "If enabled, the gateway will create an eBarimt (tax receipt) after payment is confirmed."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "eBarimt Sender Register"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Company registration / tax id used when creating eBarimt (eg. 5395305)."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "eBarimt Sender Name"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Company name to use for eBarimt receipts."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "eBarimt Sender Address"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Optional address for eBarimt payload."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "eBarimt District Code"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Default district code for eBarimt (can be set per-order)."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Merchant Branch Code"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Your branch code registered with qPay (e.g., BRANCH1)."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "eBarimt Receiver Type"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Default receiver type for eBarimt (CITIZEN or COMPANY)."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Default Bank"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Default receiving bank for settlements."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Enable failure alerts"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Send email alerts when queued tasks permanently fail."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Alert email"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Email address to receive failure alerts (defaults to WordPress admin email)."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Enable Logging"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Log debug messages to WooCommerce > Status > Logs"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Save debug messages to the WooCommerce log."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Display Language"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Language for error messages and receipts."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "qPay v2 gateway settings. Sandbox is prefilled with test credentials on activation."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Order not found."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "No qPay payment ID found for this order."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+#, php-format
+msgid "qPay refund queued for processing. Amount: %s. Reason: %s"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+#, php-format
+msgid "qPay refund processed successfully. Amount: %s. Reason: %s"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "qPay authentication failed: "
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+#, php-format
+msgid "Currency %s is not supported by qPay. Supported currencies: %s"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "qPay invoice creation queued for retry"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "qPay invoice creation failed: "
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+#, php-format
+msgid "HTTP %d error"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Thank you. Please wait for qPay payment confirmation."
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Scan QR to pay:"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Open qPay Short URL"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Open in bank app:"
+msgstr ""
+
+#: includes/class-wooqpay-fixtures.php
+msgid "Select Bank"
+msgstr ""
+
+#: includes/class-wooqpay-fixtures.php
+msgid "Select District"
+msgstr ""
+
+#: includes/class-wooqpay-fixtures.php
+msgid "Select Sub-branch"
+msgstr ""
+
+#: includes/class-wooqpay-fixtures.php
+msgid "Select Classification"
+msgstr ""
+
+#: includes/class-wooqpay-fixtures.php
+msgid "Standard VAT (10%)"
+msgstr ""
+
+#: includes/class-wooqpay-fixtures.php
+msgid "VAT 0%"
+msgstr ""
+
+#: includes/class-wooqpay-fixtures.php
+msgid "VAT Exempt"
+msgstr ""
+
+#: wooqpay.php
+msgid "WooQPay Cancel Invoice"
+msgstr ""
+
+#: wooqpay.php
+msgid "WooQPay Refund Payment"
+msgstr ""
+
+#: wooqpay.php
+msgid "qPay GS1 code"
+msgstr ""
+
+#: wooqpay.php
+msgid "Optional: override GS1 classification code for this product (used for eBarimt)."
+msgstr ""
+
+#: wooqpay.php
+msgid "Disable qPay GS1 auto-mapping"
+msgstr ""
+
+#: wooqpay.php
+msgid "If checked, the gateway will not attempt automatic GS1 mapping for this product."
+msgstr ""
+
+#: wooqpay.php
+msgid "qPay VAT Code"
+msgstr ""
+
+#: wooqpay.php
+msgid "Select VAT treatment for this product (0% or exempt)"
+msgstr ""
+
+#: includes/class-wooqpay-gateway.php
+msgid "Shipping"
+msgstr ""
