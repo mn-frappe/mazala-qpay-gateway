@@ -1,0 +1,406 @@
+# Mongolian translation for WooQPay plugin.
+# Copyright (C) 2025 WooQPay
+# This file is distributed under the same license as the WooQPay plugin.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WooQPay 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/wooqpay/wooqpay/issues\n"
+"POT-Creation-Date: 2025-12-12 00:00:00+0000\n"
+"PO-Revision-Date: 2025-12-12 10:00:00+0800\n"
+"Last-Translator: WooQPay Team\n"
+"Language-Team: Mongolian\n"
+"Language: mn_MN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WooQPay i18n Generator\n"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Accept payments via qPay (Mongolian payment gateway) with eBarimt integration."
+msgstr "qPay (Монгол төлбөрийн гарц) ашиглан төлбөр хүлээн авах ба и-Баримт холболттой."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Enable/Disable"
+msgstr "Идэвхжүүлэх/Идэвхгүй болгох"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Enable qPay gateway"
+msgstr "qPay гарцыг идэвхжүүлэх"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Title"
+msgstr "Гарчиг"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Description"
+msgstr "Тайлбар"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Mode"
+msgstr "Горим"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Choose sandbox or production. Sandbox is the default on activation."
+msgstr "Туршилтын эсвэл бодит горимыг сонгоно уу. Туршилтын горим анхдагч байдлаар сонгогдоно."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Invoice Code"
+msgstr "Нэхэмжлэхийн код"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Invoice code provided by qPay (required for live)."
+msgstr "qPay-ээс олгосон нэхэмжлэхийн код (бодит горимд шаардлагатай)."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Sandbox client id"
+msgstr "Туршилтын client id"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Test client id (pre-filled): TEST_MERCHANT"
+msgstr "Туршилтын client id (урьдчилан бөглөсөн): TEST_MERCHANT"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Sandbox client secret"
+msgstr "Туршилтын client secret"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Test client secret (pre-filled): 123456"
+msgstr "Туршилтын client secret (урьдчилан бөглөсөн): 123456"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Live client id"
+msgstr "Бодит client id"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Live client id (enter when ready)"
+msgstr "Бодит client id (бэлэн болмогц оруулна уу)"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Live client secret"
+msgstr "Бодит client secret"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Use environment variables"
+msgstr "Орчны хувьсагч ашиглах"
+
+#: includes/class-wooqpay-gateway.php
+msgid "If enabled, read credentials from environment variables instead of storing them in options."
+msgstr "Идэвхжүүлсэн бол нэвтрэх мэдээллийг тохиргоонд хадгалахын оронд орчны хувьсагчаас унших."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Env var for client id"
+msgstr "Client id-ийн орчны хувьсагч"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Environment variable name to read client id from (e.g. WOOQPAY_CLIENT_ID)."
+msgstr "Client id-г унших орчны хувьсагчийн нэр (жишээ нь WOOQPAY_CLIENT_ID)."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Env var for client secret"
+msgstr "Client secret-ийн орчны хувьсагч"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Environment variable name to read client secret from (e.g. WOOQPAY_CLIENT_SECRET)."
+msgstr "Client secret-г унших орчны хувьсагчийн нэр (жишээ нь WOOQPAY_CLIENT_SECRET)."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Webhook Secret"
+msgstr "Webhook нууц түлхүүр"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Secret for validating webhook signatures (HMAC-SHA256)."
+msgstr "Webhook гарын үсгийг баталгаажуулах нууц түлхүүр (HMAC-SHA256)."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Webhook Signature Header"
+msgstr "Webhook гарын үсгийн толгой"
+
+#: includes/class-wooqpay-gateway.php
+msgid "HTTP header name containing the webhook signature."
+msgstr "Webhook гарын үсгийг агуулсан HTTP толгойн нэр."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Webhook Signature Algorithm"
+msgstr "Webhook гарын үсгийн алгоритм"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Enable eBarimt posting"
+msgstr "и-Баримт илгээхийг идэвхжүүлэх"
+
+#: includes/class-wooqpay-gateway.php
+msgid "If enabled, the gateway will create an eBarimt (tax receipt) after payment is confirmed."
+msgstr "Идэвхжүүлсэн бол төлбөр баталгаажсаны дараа гарц и-Баримт (татварын баримт) үүсгэнэ."
+
+#: includes/class-wooqpay-gateway.php
+msgid "eBarimt Sender Register"
+msgstr "и-Баримт илгээгчийн регистр"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Company registration / tax id used when creating eBarimt (eg. 5395305)."
+msgstr "и-Баримт үүсгэхэд ашиглах компанийн бүртгэл / татварын дугаар (жишээ нь 5395305)."
+
+#: includes/class-wooqpay-gateway.php
+msgid "eBarimt Sender Name"
+msgstr "и-Баримт илгээгчийн нэр"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Company name to use for eBarimt receipts."
+msgstr "и-Баримт баримтанд ашиглах компанийн нэр."
+
+#: includes/class-wooqpay-gateway.php
+msgid "eBarimt Sender Address"
+msgstr "и-Баримт илгээгчийн хаяг"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Optional address for eBarimt payload."
+msgstr "и-Баримт өгөгдөлд ашиглах хаяг (нэмэлт)."
+
+#: includes/class-wooqpay-gateway.php
+msgid "eBarimt District Code"
+msgstr "и-Баримт дүүргийн код"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Default district code for eBarimt (can be set per-order)."
+msgstr "и-Баримт-ийн анхдагч дүүргийн код (захиалга бүрт тохируулж болно)."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Merchant Branch Code"
+msgstr "Худалдаачны салбарын код"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Your branch code registered with qPay (e.g., BRANCH1)."
+msgstr "qPay-д бүртгэгдсэн салбарын код (жишээ нь BRANCH1)."
+
+#: includes/class-wooqpay-gateway.php
+msgid "eBarimt Receiver Type"
+msgstr "и-Баримт хүлээн авагчийн төрөл"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Default receiver type for eBarimt (CITIZEN or COMPANY)."
+msgstr "и-Баримт-ийн анхдагч хүлээн авагчийн төрөл (ИРГЭН эсвэл БАЙГУУЛЛАГА)."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Default Bank"
+msgstr "Анхдагч банк"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Default receiving bank for settlements."
+msgstr "Тооцоо хийх анхдагч хүлээн авах банк."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Enable failure alerts"
+msgstr "Алдааны мэдэгдлийг идэвхжүүлэх"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Send email alerts when queued tasks permanently fail."
+msgstr "Дарааллын даалгавар бүрмөсөн амжилтгүй болоход имэйл мэдэгдэл илгээх."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Alert email"
+msgstr "Мэдэгдлийн имэйл"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Email address to receive failure alerts (defaults to WordPress admin email)."
+msgstr "Алдааны мэдэгдэл хүлээн авах имэйл хаяг (анхдагчаар WordPress админы имэйл)."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Enable Logging"
+msgstr "Лог бичихийг идэвхжүүлэх"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Log debug messages to WooCommerce > Status > Logs"
+msgstr "WooCommerce > Төлөв > Логууд руу дибаг мессеж бичих"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Save debug messages to the WooCommerce log."
+msgstr "Дибаг мессежүүдийг WooCommerce лог руу хадгалах."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Display Language"
+msgstr "Харуулах хэл"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Language for error messages and receipts."
+msgstr "Алдааны мессеж болон баримтын хэл."
+
+#: includes/class-wooqpay-gateway.php
+msgid "qPay v2 gateway settings. Sandbox is prefilled with test credentials on activation."
+msgstr "qPay v2 гарцын тохиргоо. Туршилтын горим идэвхжүүлэхэд туршилтын мэдээллээр урьдчилан бөглөгдөнө."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Order not found."
+msgstr "Захиалга олдсонгүй."
+
+#: includes/class-wooqpay-gateway.php
+msgid "No qPay payment ID found for this order."
+msgstr "Энэ захиалгад qPay төлбөрийн ID олдсонгүй."
+
+#: includes/class-wooqpay-gateway.php
+#, php-format
+msgid "qPay refund queued for processing. Amount: %s. Reason: %s"
+msgstr "qPay буцаан олголт боловсруулахаар дараалалд орсон. Дүн: %s. Шалтгаан: %s"
+
+#: includes/class-wooqpay-gateway.php
+#, php-format
+msgid "qPay refund processed successfully. Amount: %s. Reason: %s"
+msgstr "qPay буцаан олголт амжилттай боловсрогдсон. Дүн: %s. Шалтгаан: %s"
+
+#: includes/class-wooqpay-gateway.php
+msgid "qPay authentication failed: "
+msgstr "qPay нэвтрэлт амжилтгүй болсон: "
+
+#: includes/class-wooqpay-gateway.php
+#, php-format
+msgid "Currency %s is not supported by qPay. Supported currencies: %s"
+msgstr "%s валют qPay-д дэмжигдэхгүй. Дэмжигдэх валютууд: %s"
+
+#: includes/class-wooqpay-gateway.php
+msgid "qPay invoice creation queued for retry"
+msgstr "qPay нэхэмжлэх үүсгэхийг дахин оролдохоор дараалалд орлоо"
+
+#: includes/class-wooqpay-gateway.php
+msgid "qPay invoice creation failed: "
+msgstr "qPay нэхэмжлэх үүсгэх амжилтгүй болсон: "
+
+#: includes/class-wooqpay-gateway.php
+#, php-format
+msgid "HTTP %d error"
+msgstr "HTTP %d алдаа"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Thank you. Please wait for qPay payment confirmation."
+msgstr "Баярлалаа. qPay төлбөрийн баталгаажуулалтыг хүлээнэ үү."
+
+#: includes/class-wooqpay-gateway.php
+msgid "Scan QR to pay:"
+msgstr "QR кодыг уншуулж төлөх:"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Open qPay Short URL"
+msgstr "qPay богино холбоосыг нээх"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Open in bank app:"
+msgstr "Банкны апп дээр нээх:"
+
+#: includes/class-wooqpay-fixtures.php
+msgid "Select Bank"
+msgstr "Банк сонгох"
+
+#: includes/class-wooqpay-fixtures.php
+msgid "Select District"
+msgstr "Дүүрэг сонгох"
+
+#: includes/class-wooqpay-fixtures.php
+msgid "Select Sub-branch"
+msgstr "Салбар сонгох"
+
+#: includes/class-wooqpay-fixtures.php
+msgid "Select Classification"
+msgstr "Ангилал сонгох"
+
+#: includes/class-wooqpay-fixtures.php
+msgid "Standard VAT (10%)"
+msgstr "Стандарт НӨАТ (10%)"
+
+#: includes/class-wooqpay-fixtures.php
+msgid "VAT 0%"
+msgstr "НӨАТ 0%"
+
+#: includes/class-wooqpay-fixtures.php
+msgid "VAT Exempt"
+msgstr "НӨАТ чөлөөлөгдсөн"
+
+#: wooqpay.php
+msgid "WooQPay Cancel Invoice"
+msgstr "WooQPay нэхэмжлэх цуцлах"
+
+#: wooqpay.php
+msgid "WooQPay Refund Payment"
+msgstr "WooQPay төлбөр буцаах"
+
+#: wooqpay.php
+msgid "qPay GS1 code"
+msgstr "qPay GS1 код"
+
+#: wooqpay.php
+msgid "Optional: override GS1 classification code for this product (used for eBarimt)."
+msgstr "Нэмэлт: энэ бүтээгдэхүүний GS1 ангиллын кодыг дарж бичих (и-Баримтад ашиглана)."
+
+#: wooqpay.php
+msgid "Disable qPay GS1 auto-mapping"
+msgstr "qPay GS1 автомат тохируулгыг идэвхгүй болгох"
+
+#: wooqpay.php
+msgid "If checked, the gateway will not attempt automatic GS1 mapping for this product."
+msgstr "Сонгосон бол гарц энэ бүтээгдэхүүнд GS1 автомат тохируулга хийхгүй."
+
+#: wooqpay.php
+msgid "qPay VAT Code"
+msgstr "qPay НӨАТ код"
+
+#: wooqpay.php
+msgid "Select VAT treatment for this product (0% or exempt)"
+msgstr "Энэ бүтээгдэхүүний НӨАТ горимыг сонгоно уу (0% эсвэл чөлөөлөгдсөн)"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Shipping"
+msgstr "Хүргэлт"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Payment"
+msgstr "Төлбөр"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Refund"
+msgstr "Буцаан олголт"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Error"
+msgstr "Алдаа"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Success"
+msgstr "Амжилттай"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Processing"
+msgstr "Боловсруулж байна"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Pending"
+msgstr "Хүлээгдэж байна"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Cancelled"
+msgstr "Цуцлагдсан"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Completed"
+msgstr "Дууссан"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Failed"
+msgstr "Амжилтгүй"
+
+#: includes/class-wooqpay-gateway.php
+msgid "On Hold"
+msgstr "Хүлээгдэж буй"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Sandbox"
+msgstr "Туршилт"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Production"
+msgstr "Бодит"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Citizen"
+msgstr "Иргэн"
+
+#: includes/class-wooqpay-gateway.php
+msgid "Company"
+msgstr "Байгууллага"

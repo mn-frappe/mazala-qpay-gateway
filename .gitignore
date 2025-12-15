@@ -1,0 +1,25 @@
+# Vendor dependencies (can be installed via composer)
+vendor/
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local config
+.env
+*.local
+
+# Build artifacts
+node_modules/
+*.log
+
+# Test coverage
+coverage/
+.phpunit.result.cache

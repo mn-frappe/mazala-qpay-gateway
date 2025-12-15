@@ -1,0 +1,250 @@
+/**
+ * WooQPay - qPay Payment Gateway Styles
+ * Version: 1.0.0
+ */
+
+/* QR Code Container */
+.wooqpay-qr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.wooqpay-qr-code {
+    max-width: 250px;
+    height: auto;
+    margin: 15px 0;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.wooqpay-qr-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Short URL Button */
+.wooqpay-short-url {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 6px;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wooqpay-short-url:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    color: #fff !important;
+}
+
+/* Bank App Links */
+.wooqpay-bank-apps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.wooqpay-bank-apps-label {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.wooqpay-bank-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #f5f5f5;
+    color: #333 !important;
+    text-decoration: none !important;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background 0.2s ease;
+}
+
+.wooqpay-bank-link:hover {
+    background: #e0e0e0;
+    color: #333 !important;
+}
+
+.wooqpay-bank-link img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+/* Payment Status Messages */
+.wooqpay-status {
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.wooqpay-status-pending {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    color: #856404;
+}
+
+.wooqpay-status-success {
+    background: #d4edda;
+    border: 1px solid #28a745;
+    color: #155724;
+}
+
+.wooqpay-status-error {
+    background: #f8d7da;
+    border: 1px solid #dc3545;
+    color: #721c24;
+}
+
+/* Admin Styles */
+.wooqpay-admin-section {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.wooqpay-admin-section h3 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.wooqpay-admin-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.wooqpay-admin-actions .button {
+    display: inline-flex;
+    align-items: center;
+}
+
+.wooqpay-admin-actions .dashicons {
+    margin-right: 5px;
+}
+
+/* Invoice Details */
+.wooqpay-invoice-details {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.wooqpay-invoice-details dt {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.wooqpay-invoice-details dt:first-child {
+    margin-top: 0;
+}
+
+.wooqpay-invoice-details dd {
+    margin-left: 0;
+    color: #666;
+}
+
+/* Checkout Block Styles */
+.wc-block-components-payment-method-icons .wooqpay-icon {
+    max-height: 24px;
+    width: auto;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    .wooqpay-qr-container {
+        padding: 15px;
+    }
+    
+    .wooqpay-qr-code {
+        max-width: 200px;
+    }
+    
+    .wooqpay-bank-apps {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .wooqpay-bank-link {
+        justify-content: center;
+    }
+}
+
+/* Loading State */
+.wooqpay-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.wooqpay-loading::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #667eea;
+    border-radius: 50%;
+    animation: wooqpay-spin 1s linear infinite;
+}
+
+@keyframes wooqpay-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    .wooqpay-qr-container {
+        background: #1e1e1e;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+    
+    .wooqpay-qr-label {
+        color: #e0e0e0;
+    }
+    
+    .wooqpay-bank-link {
+        background: #333;
+        color: #e0e0e0 !important;
+    }
+    
+    .wooqpay-bank-link:hover {
+        background: #444;
+    }
+    
+    .wooqpay-invoice-details {
+        background: #2a2a2a;
+    }
+    
+    .wooqpay-invoice-details dd {
+        color: #aaa;
+    }
+}
